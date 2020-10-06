@@ -10,7 +10,7 @@ Un filtre de bloom nécessite d’implanter un ensemble de bits (BitSet) et une 
 
 ## Les maths
 
-Soient un filytre de Bloom dont les paramètres sont les suivants:
+Soient un filtre de Bloom dont les paramètres sont les suivants:
 nBits = entier representant le nombre de bits du filtre ou la taille de l'ensemble de bits
 nHash = entier representant le nombre de fonction de hachage desiré ou necessaire
 nElem = entier representant le nombre de d'éléments que le filtre est supposé contenir
