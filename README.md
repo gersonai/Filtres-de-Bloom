@@ -24,4 +24,4 @@ nBits = (int)ceil(-nElem*log(fpPro)/(log(2))**2)
 
 ## Descriptions des classes écrites
 
-## À VENIR!
+## À venir!
