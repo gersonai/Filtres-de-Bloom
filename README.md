@@ -35,7 +35,7 @@ La classe qui implante l’ensemble de bits utilise par le filtre.
 
 2. HashFunction.java
 La classe qui implante la fonction de hachage. Elle s'occupe de la génération de nombre **nHash** de fonction de hashage necessaire.
-La classe utilise le principe de Hashage universelle ([https://en.wikipedia.org/wiki/List_of_prime_numbers]) et celui du double hachage pour la Gestion de collision ([https://en.wikipedia.org/wiki/Double_hashing]).
+La classe utilise le principe de Hashage universelle (https://en.wikipedia.org/wiki/List_of_prime_numbers) et celui du double hachage pour la Gestion de collision (https://en.wikipedia.org/wiki/Double_hashing).
 
 3. BloomFilter.java
 Cette classe crée le filtre de Bloom. On y implémente deux constructeurs différents.
