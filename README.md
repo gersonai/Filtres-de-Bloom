@@ -16,7 +16,7 @@ nHash = entier representant le nombre de fonction de hachage desiré ou necessai
 nElem = entier representant le nombre de d'éléments que le filtre est supposé contenir
 fpPro = decimal représentant la probabilité de faux-positive desirée.
 
-On a les relatinons suivantes:
+Les relatinons sont les suivantes:
 
 nHash = (int)ceil(-log(fpPro)/log(2))
 
