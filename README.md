@@ -57,5 +57,4 @@ Les keys sont ensuite ajoutés au filtre pour tester chacune des fonctions.
 
 
 2. *Test du constructeur2 avec nElem=n=100 et fpPro=p=10%*
-
 ![Test du constructeur2 avec nElem=n=100 et fpPro=p=10%](02.png)
