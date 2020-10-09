@@ -24,9 +24,9 @@ Soient un filtre de Bloom dont les paramètres sont les suivants:
 
 **Les relatinons sont les suivantes**:
 
-***nHash* = (int)ceil(-log(fpPro)/log(2))**
+* nHash = (int)ceil(-log(fpPro)/log(2)) *
 
-***nBits* = (int)ceil(-nElem*log(fpPro)/(log(2))**2)**
+* nBits = (int)ceil(-nElem*log(fpPro)/(log(2))**2) *
 
 
 ## Descriptions des classes écrites
@@ -53,9 +53,11 @@ Les keys sont ensuite ajoutés au filtre pour tester chacune des fonctions.
 ## Resultats de tests
 
 1. *Test du constructeur1 avec nBits = m = 480 et nHash = k = 4*
+
 ![Test du constructeur1 avec nBits=m=480 et nHash=k=4](01.png)
 
 
 
 2. *Test du constructeur2 avec nElem = n = 100 et fpPro = p =10%*
+
 ![Test du constructeur2 avec nElem=n=100 et fpPro=p=10%](02.png)
