@@ -51,6 +51,6 @@ Les keys sont ensuite ajoutés au filtre pour tester chacune des fonctions.
 
 ## Resultats de tests
 
-![Test du constructeur1 avec nBits=m=480 et nHash=k=4](01.png "Titre, facultatif")
+![Test du constructeur1 avec nBits=m=480 et nHash=k=4](01.png "Test du constructeur1 avec nBits=m=480 et nHash=k=4")
 
-![Test du constructeur2 avec nElem=n=100 et fpPro=p=10%](02.png "Titre, facultatif")
+![Test du constructeur2 avec nElem=n=100 et fpPro=p=10%](02.png "Test du constructeur2 avec nElem=n=100 et fpPro=p=10%")
