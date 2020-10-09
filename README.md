@@ -13,19 +13,20 @@ Un filtre de bloom nécessite d’implanter un ensemble de bits (BitSet) et une 
 
 Soient un filtre de Bloom dont les paramètres sont les suivants:
 
-nBits = entier representant le nombre de bits du filtre ou la taille de l'ensemble de bits
+*nBits* = entier representant le nombre de bits du filtre ou la taille de l'ensemble de bits
 
-nHash = entier representant le nombre de fonction de hachage desiré ou necessaire
+*nHash* = entier representant le nombre de fonction de hachage desiré ou necessaire
 
-nElem = entier representant le nombre de d'éléments que le filtre est supposé contenir
+*nElem* = entier representant le nombre de d'éléments que le filtre est supposé contenir
 
-fpPro = decimal représentant la probabilité de faux-positive desirée.
+*fpPro* = decimal représentant la probabilité de faux-positive desirée.
 
-Les relatinons sont les suivantes:
 
-nHash = (int)ceil(-log(fpPro)/log(2))
+**Les relatinons sont les suivantes**:
 
-nBits = (int)ceil(-nElem*log(fpPro)/(log(2))**2)
+*nHash* = (int)ceil(-log(fpPro)/log(2))
+
+*nBits* = (int)ceil(-nElem*log(fpPro)/(log(2))**2)
 
 
 ## Descriptions des classes écrites
