@@ -1,6 +1,7 @@
 # Filtres de Bloom - Implémentation en Java
 
 ## Généralités
+
 De manière succincte, un filtre de Bloom, conçu par Burton Howard Bloom en 1970 dans le papier http://www.cs.upc.edu/~diaz/p422-bloom.pdf est une structure de données de type probabiliste très efficace en terme de gestion d’espace dont le but principe est de fournir le possibilité de d'affirmer avec certitude qu’un élément ou une clé n'est pas présent dans un ensemble, et avec une certaine probabilité que la clé en question est present dans l'ensemble. Ceci signifie qu'il est possible d’avoir de faux positifs, mais jamais de faux négatifs. Le filtre offre la possibilité de controller la probabilité de faux positifs dépendamment des besoins de l’implantation.
 
 Une application d’un filtre serait par exemple de disposer d’une liste de certains éléments et que l’on veut avec certitude et avec une complexité O(1) vérifier si un élément donné est absent sans avoir besoin de parcourir tous les élément de la liste.
@@ -9,6 +10,7 @@ Un filtre de bloom nécessite d’implanter un ensemble de bits (BitSet) et une 
 
 
 ## Les maths
+
 Soient un filtre de Bloom dont les paramètres sont les suivants:
 
 nBits = entier representant le nombre de bits du filtre ou la taille de l'ensemble de bits
@@ -27,6 +29,7 @@ nBits = (int)ceil(-nElem*log(fpPro)/(log(2))**2)
 
 
 ## Descriptions des classes écrites
+
 1. BitSet.java
 La classe qui implante l’ensemble de bits utilise par le filtre.
 
@@ -47,6 +50,7 @@ Les keys sont ensuite ajoutés au filtre pour tester chacune des fonctions.
 
 
 ## Resultats de tests
+
 *Test du constructeur1 avec nBits=m=480 et nHash=k=4*
 
 ![Test du constructeur1 avec nBits=m=480 et nHash=k=4](01.png)
