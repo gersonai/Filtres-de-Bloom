@@ -11,9 +11,13 @@ Un filtre de bloom nécessite d’implanter un ensemble de bits (BitSet) et une 
 ## Les maths
 
 Soient un filtre de Bloom dont les paramètres sont les suivants:
+
 nBits = entier representant le nombre de bits du filtre ou la taille de l'ensemble de bits
+
 nHash = entier representant le nombre de fonction de hachage desiré ou necessaire
+
 nElem = entier representant le nombre de d'éléments que le filtre est supposé contenir
+
 fpPro = decimal représentant la probabilité de faux-positive desirée.
 
 Les relatinons sont les suivantes:
@@ -24,4 +28,4 @@ nBits = (int)ceil(-nElem*log(fpPro)/(log(2))**2)
 
 ## Descriptions des classes écrites
 
-## À Venir!
+1- BitSet.java
