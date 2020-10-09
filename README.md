@@ -24,9 +24,9 @@ Soient un filtre de Bloom dont les paramètres sont les suivants:
 
 **Les relatinons sont les suivantes**:
 
-*nHash* = (int)ceil(-log(fpPro)/log(2))
+***nHash* = (int)ceil(-log(fpPro)/log(2))**
 
-*nBits* = (int)ceil(-nElem*log(fpPro)/(log(2))**2)
+***nBits* = (int)ceil(-nElem*log(fpPro)/(log(2))**2)**
 
 
 ## Descriptions des classes écrites
